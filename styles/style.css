@@ -12,6 +12,7 @@ html, body {
     background-color: black;
 }
 
+/* Configurações do plano de fundo */
 body {
     background: url('../images/fundo-madeira.jpg') no-repeat fixed top center;
     background-size: cover;
@@ -27,9 +28,16 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    
     height: 627px;
     width: 311px;
     background: url('../images/frame-iphone.png') no-repeat;
 }
 
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 472px;
+}
