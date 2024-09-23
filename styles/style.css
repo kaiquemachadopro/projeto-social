@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Configurações gerais */
 * {
     margin: 0px;
     padding: 0px;
@@ -34,10 +35,23 @@ section#telefone {
     background: url('../images/frame-iphone.png') no-repeat;
 }
 
+/* Configurações da tela Home */
 iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
     width: 269px;
     height: 472px;
+}
+
+/* Configurações do menu lateral */
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais > a > img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
 }
