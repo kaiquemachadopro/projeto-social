@@ -15,7 +15,7 @@ html, body {
 
 /* Configurações do plano de fundo */
 body {
-    background: url('../images/fundo-madeira.jpg') no-repeat fixed top center;
+    background-color: black;
     background-size: cover;
 }
 
